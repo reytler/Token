@@ -1,0 +1,19 @@
+{
+  "name": "Token",
+  "version": "1.0.0",
+  "description": "Versão para typescript",
+  "main": "index.js",
+  "repository": "https://github.com/reytler/Token.git",
+  "scripts": {
+    "test":"jest --no-cache --watchAll"
+  },
+  "author": "Reytler Souza",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^29.2.4",
+    "@types/node": "^18.11.15",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.4"
+  }
+}
