@@ -8,7 +8,9 @@ describe('Teste GetSeparator',() => {
   })
 
   test('Deve ser lançada uma exceção', () => {
-    const base = 'qwertyuiopasdfghjkl'
-    expect(_getSeparator).toThrow()
+    const baseSeparator = 'qwertyuiopasdfghjkl'
+    expect(()=>{
+      _getSeparator(baseSeparator)
+    }).toThrow()
   })
 })
