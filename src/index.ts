@@ -1,7 +1,7 @@
 /*BEGIN CONFIG*/
     //OBS.: Não deve-se inserir espaço na string de informações, isso inválidará o token, deve-se separar cada informação por ífen(-).
 const base: string = ' -abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // Padrão utilizado para obter posições de cada item da string de informações
-const senha: string = 'Dev252318'; // Senha para proteção e integridade do Token
+const senha: string = 'SUASENHAAQUI'; // Senha para proteção e integridade do Token
 const baseSeparator: string = 'abcdefghijklmnopqrstuvwxyz'; // Padrão para obter separadores randômicos
 /*END CONFIG*/
 
